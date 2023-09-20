@@ -20,3 +20,4 @@ Commented code means that there are other solutions taken from the articles, whi
 ## Resources
 
 - [Dev.to: CSS Battle #1 - Simply Square](https://dev.to/pheeria/css-battle-1-simply-square-c19)
+- [Stackoverflow: CSS - Box Shadow - what is 0+0+0+0+2in#color](https://stackoverflow.com/questions/66336304/css-box-shadow-what-is-00002incolor)
