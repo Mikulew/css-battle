@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Battle #002</title>
+</head>
+
+<body>
+  <div a></div>
+  <div b></div>
+  <div c></div>
+  <div d></div>
+
+  <style>
+    body {
+      margin: 0;
+      background: #62374e;
+    }
+    
+    div {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background-color: #fdc57b;
+    }
+
+    div[a] {
+      top: 50px;
+      left: 50px;
+    }
+
+    div[b] {
+      top: 50px;
+      right: 50px;
+    }
+
+    div[c] {
+      bottom: 50px;
+      left: 50px;
+    }
+
+    div[d] {
+      bottom: 50px;
+      right: 50px;
+    }
+
+    /*
+    body {
+      background: #62374e;
+      width:50%;
+      height:100;
+      border:50px solid;
+      margin:50;
+      border-image: linear-gradient(#fdc57b,#fdc57b)
+    } 
+
+    html {
+      background: #62374e;
+    }
+
+    body {
+      background: #fdc57b;
+      margin: 50;
+      clip-path: polygon(0 0, 0 25%, 50px 25%, 50px 0, 100% 0, 100% 25%, 100% 100%, 50px 100%, 50px 75%, 0% 75%, 0 100%, 250px 100%, 250px 75%, 100% 75%, 100% 25%, 250px 25%, 250px 0);
+    }
+    */
+  </style>
+</body>
+
+</html>
